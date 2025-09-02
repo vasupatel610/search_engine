@@ -14,8 +14,8 @@ st.set_page_config(
 )
 
 # Backend API configuration
-API_BASE_URL = "https://8d2a34ca7bd1.ngrok-free.app"
-# API_BASE_URL = os.getenv("API_BASE_URL", "http://0.0.0.0:8010")
+# API_BASE_URL = "https://8d2a34ca7bd1.ngrok-free.app"
+API_BASE_URL = os.getenv("API_BASE_URL", "http://0.0.0.0:8010")
 import os
 
 # First check Streamlit secrets, then env var, fallback to local
